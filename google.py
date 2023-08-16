@@ -16,7 +16,7 @@ class google_keyword_screenshooter():
         self.screenshot_dir = screenshot_dir
         self.max_pages = max_pages
 
-    def run(self):
+    def start(self):
         self.driver.get("https://google.com")
         search_bar = self.driver.find_element(By.CLASS_NAME, "gLFyf")
         search_bar.send_keys(self.keyword, Keys.ENTER)
