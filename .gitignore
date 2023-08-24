@@ -1,2 +1,4 @@
 .vscode/
 screenshots/
+tmpinfo.py
+__pycache__
